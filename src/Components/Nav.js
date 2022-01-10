@@ -1,5 +1,9 @@
 import React from "react";
 
+import {
+  Link
+} from "react-router-dom";
+
 import img_email from '../Img/email.png'
 import img_phone from '../Img/phone-call.png'
 import logomain from '../Img/logo-main.png' 
@@ -63,26 +67,26 @@ const Nav = () => {
               >
                 <ul className="navbar-nav ml-auto">
                   <li className="nav-item ">
-                    <a className="nav-link gs-nav-li" href="/">
+                    <Link to="" className="nav-link gs-nav-li" >
                       Home{" "}
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link gs-nav-li" href="about.html">
+                    <Link to="about" className="nav-link gs-nav-li">
                       About Us
-                    </a>
+                    </Link>
                   </li>
 
                   <li className="nav-item">
-                    <a className="nav-link gs-nav-li" href="service.html">
+                    <Link to="services" className="nav-link gs-nav-li" >
                       {" "}
                       Services
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link gs-nav-li" href="contact.html">
+                    <Link to="contact" className="nav-link gs-nav-li" >
                       Contact Us
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <a
