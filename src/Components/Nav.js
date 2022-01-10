@@ -3,6 +3,7 @@ import React from "react";
 import img_email from '../Img/email.png'
 import img_phone from '../Img/phone-call.png'
 import logomain from '../Img/logo-main.png' 
+import PopupForm from "./PopupForm";
 
 const Nav = () => {
   return (
@@ -100,6 +101,9 @@ const Nav = () => {
           </nav>
         </div>
       </section>
+
+      <PopupForm />
+
     </>
   );
 };
