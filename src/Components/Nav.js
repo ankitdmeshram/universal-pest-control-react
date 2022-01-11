@@ -1,12 +1,10 @@
 import React from "react";
 
-import {
-  Link
-} from "react-router-dom";
+import { Link } from "react-router-dom";
 
-import img_email from '../Img/email.png'
-import img_phone from '../Img/phone-call.png'
-import logomain from '../Img/logo-main.png' 
+import img_email from "../Img/email.png";
+import img_phone from "../Img/phone-call.png";
+import logomain from "../Img/logo-main.png";
 import PopupForm from "./PopupForm";
 
 const Nav = () => {
@@ -20,7 +18,7 @@ const Nav = () => {
                 <img
                   src={img_email}
                   className="img-fluid"
-                style={{width: "17px"}}
+                  style={{ width: "17px" }}
                 />
                 <span className="gs-hide">
                   {" "}
@@ -31,7 +29,7 @@ const Nav = () => {
                 <img
                   src={img_phone}
                   className="img-fluid"
-                style={{width:"17px", marginLeft: "20px"}}
+                  style={{ width: "17px", marginLeft: "20px" }}
                 />
                 <span className="gs-hide">+91 99097 23817</span>
               </a>
@@ -41,15 +39,12 @@ const Nav = () => {
         <div className="gs-nav " id="navbar_top">
           <nav
             className="navbar navbar-expand-lg navbar-light shadow-lg"
-            style={{backgroundColor: "white"}}
+            style={{ backgroundColor: "white" }}
           >
             <div className="container">
-              <a className="navbar-brand" href="/" 
-              >
-                <img src={logomain} 
-                style={{height: "80px"}}
-                 alt="logo" />
-              </a>
+              <Link className="navbar-brand" to="/">
+                <img src={logomain} style={{ height: "80px" }} alt="logo" />
+              </Link>
               <button
                 className="navbar-toggler"
                 type="button"
@@ -67,7 +62,7 @@ const Nav = () => {
               >
                 <ul className="navbar-nav ml-auto">
                   <li className="nav-item ">
-                    <Link to="" className="nav-link gs-nav-li" >
+                    <Link to="" className="nav-link gs-nav-li">
                       Home{" "}
                     </Link>
                   </li>
@@ -78,13 +73,13 @@ const Nav = () => {
                   </li>
 
                   <li className="nav-item">
-                    <Link to="services" className="nav-link gs-nav-li" >
+                    <Link to="services" className="nav-link gs-nav-li">
                       {" "}
                       Services
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link to="contact" className="nav-link gs-nav-li" >
+                    <Link to="contact" className="nav-link gs-nav-li">
                       Contact Us
                     </Link>
                   </li>
@@ -94,7 +89,11 @@ const Nav = () => {
                       href="/"
                       data-toggle="modal"
                       data-target="#exampleModal"
-                      style={{color: "white", borderRadius: "5px", padding: "5px 20px"}}
+                      style={{
+                        color: "white",
+                        borderRadius: "5px",
+                        padding: "5px 20px",
+                      }}
                     >
                       Hire Us{" "}
                     </a>
@@ -107,7 +106,6 @@ const Nav = () => {
       </section>
 
       <PopupForm />
-
     </>
   );
 };

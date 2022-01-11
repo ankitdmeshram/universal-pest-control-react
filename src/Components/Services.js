@@ -1,4 +1,8 @@
 import React from "react";
+import {
+  Link
+} from "react-router-dom";
+
 
 import birdji from '../Img/birdsji.png';
 import fogging from '../Img/fogging.png';
@@ -25,7 +29,7 @@ const Services = () => {
                 />
                 <div className="dest-box-content">
                   <h5>
-                    <a href="termite-control.html"> Termite control</a>
+                    <Link to="termite-control"> Termite control</Link>
                     {/* <!-- <span className="gs-dest-right"
                     ><small>3 Day - Rs.50,000</small></span
                   > --> */}
@@ -60,10 +64,10 @@ const Services = () => {
                 />
                 <div className="dest-box-content">
                   <h5>
-                    <a href="general-pest-control.html">
+                    <Link to="general-pest-control">
                       {" "}
                       General Pest Services
-                    </a>
+                    </Link>
 
                     {/* <!-- <span className="gs-dest-right"
                     ><small>3 Day - Rs.50,000</small></span
@@ -96,10 +100,10 @@ const Services = () => {
                 <img src={fogging} className="img-fluid gs-dest-box" />
                 <div className="dest-box-content">
                   <h5>
-                    <a href="fogging-services-mosquitoes.html">
+                    <Link to="fogging-services-mosquitoes">
                       {" "}
                       Fogging Services
-                    </a>
+                    </Link>
                     {/* <!-- <span className="gs-dest-right"
                     ><small>3 Day - Rs.50,000</small></span
                   > --> */}
@@ -134,7 +138,7 @@ const Services = () => {
                 />
                 <div className="dest-box-content">
                   <h5>
-                    <a href="sanitization.html"> Sanitization</a>
+                    <Link to="sanitization"> Sanitization</Link>
                     {/* <!-- <span className="gs-dest-right"
                     ><small>3 Day - Rs.50,000</small></span
                   > --> */}
@@ -166,7 +170,7 @@ const Services = () => {
                 <img src={birdji} className="img-fluid gs-dest-box" />
                 <div className="dest-box-content">
                   <h5>
-                    <a href="birds-control.html"> Birds Control</a>
+                    <Link to="birds-control"> Birds Control</Link>
                     {/* <!-- <span className="gs-dest-right"
                     ><small>3 Day - Rs.50,000</small></span
                   > --> */}
