@@ -1,6 +1,8 @@
 import React from "react";
 import Sidebar from "./Sidebar";
 
+import fogging from "../Img/fogging.png";
+
 const FoggServices = () => {
   return (
     <>
@@ -9,6 +11,8 @@ const FoggServices = () => {
           <div class="row">
             <div class="col-lg-8">
               <h1>Fogging Services For mosquito</h1>
+
+              <img src={fogging} className="img-fluid" />
 
               <p>
                 Mosquitoes are said to be the most harmful creatures on the

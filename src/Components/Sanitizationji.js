@@ -1,6 +1,8 @@
 import React from 'react'
 import Sidebar from './Sidebar'
 
+import sanitize from "../Img/sanitize.jpg"
+
 const Sanitizationji = () => {
     return (
         <>
@@ -10,6 +12,8 @@ const Sanitizationji = () => {
             <div class="row">
                 <div class="col-lg-8">
                     <h1>Sanitization & Disinfection Services</h1>
+
+                    <img src={sanitize} className="img-fluid pt-3 pb-3" />
 
                     <p>Universal Pest Control Services in India offers sanitising and disinfecting solutions for homes, housing complexes, buildings, and any other business place to protect you from life-threatening viruses and antibiotic-resistant germs. In the current circumstances, we are up against a lethal unseen foe. Many living beings and their livelihoods have been halted all around the world. The globe has barely been touched by the coronavirus, and millions of cases have been reported globally, with millions of people already dead. Given our own country's large population, it's frightening to think of how the pandemic may have wreaked havoc if a quick decision to keep everyone at home hadn't been made.</p>
                     

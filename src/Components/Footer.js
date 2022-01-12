@@ -4,6 +4,7 @@ import logo_white from "../Img/logo-white.png";
 import location from "../Img/location.png";
 import phone from "../Img/phone-call.png";
 import email from "../Img/email.png";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -24,23 +25,23 @@ const Footer = () => {
                 <h4>Services</h4>
                 <ul>
                   <li>
-                    <a href="termite-control.html"> Termite control</a>
+                    <Link to="termite-control"> Termite control</Link>
                   </li>
                   <li>
-                    <a href="general-pest-control.html">
+                    <Link to="general-pest-control">
                       General Pest Services
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="fogging-services-mosquitoes.html">
+                    <Link to="fogging-services-mosquitoes">
                       Fogging Services
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="sanitization.html">Sanitization</a>
+                    <Link to="sanitization">Sanitization</Link>
                   </li>
                   <li>
-                    <a href="birds-control.html">Birds Control</a>
+                    <Link to="birds-control">Birds Control</Link>
                   </li>
                 </ul>
               </div>

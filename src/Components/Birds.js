@@ -1,6 +1,8 @@
 import React from "react";
 import Sidebar from "./Sidebar";
 
+import bird from "../Img/birdsji.png";
+
 const Birds = () => {
   return (
     <>
@@ -9,6 +11,8 @@ const Birds = () => {
           <div class="row">
             <div class="col-lg-8">
               <h1>Birds Removal Service</h1>
+
+              <img src={bird} className="img-fluid pt-3 pb-3" />
 
               <p>
                 Birds can be beneficial, neutral, or destructive to man's

@@ -1,5 +1,6 @@
 import React from "react";
 import Sidebar from "./Sidebar";
+import generalpestimg from "../Img/general.jpg"
 
 const GeneralPest = () => {
   return (
@@ -9,6 +10,8 @@ const GeneralPest = () => {
           <div className="row">
             <div className="col-lg-8">
               <h1>General Pest Control Service</h1>
+
+              <img src={generalpestimg} className="img-fluid" />
 
               <p>
                 Pests such as cockroaches , rodent , flies , bed bugs, house
