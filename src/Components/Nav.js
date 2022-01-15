@@ -7,6 +7,8 @@ import img_phone from "../Img/phone-call.png";
 import logomain from "../Img/logo-main.png";
 import PopupForm from "./PopupForm";
 
+import upc_black from "../Img/upc-black.png"
+
 const Nav = () => {
   return (
     <>
@@ -43,7 +45,7 @@ const Nav = () => {
           >
             <div className="container">
               <Link className="navbar-brand" to="/">
-                <img src={logomain} style={{ height: "80px" }} alt="logo" />
+                <img src={upc_black} style={{ height: "65px" }} alt="logo" />
               </Link>
               <button
                 className="navbar-toggler"

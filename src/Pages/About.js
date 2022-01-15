@@ -7,6 +7,7 @@ import Reviews from "../Components/Reviews";
 
 import { Helmet } from "react-helmet";
 import Nav from "../Components/Nav";
+import Clients from "../Components/Clients";
 
 const About = () => {
   return (
@@ -66,7 +67,22 @@ const About = () => {
       </div>
       {/* <Breadcumb title="he" /> */}
       <HomeAbout />
+
+
+
+
+      <div className="container text-center">
+        <h1>Government Approved  Firm </h1>
+        <object style={{height: "70vh", width: "100%"}} data="https://universalpestcontrol.co.in/license.pdf" type="application/pdf">   </object>
+      </div>
+
+
+
+
+
+
       <Reviews />
+      <Clients />
       <CTA />
     </>
   );

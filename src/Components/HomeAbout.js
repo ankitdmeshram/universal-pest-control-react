@@ -48,13 +48,14 @@ const HomeAbout = () => {
                   We're Truely Dedicated To Make Your Experience As Much As
                   Simple And Fun As Possible
                 </h2>
-                <p className="pt-2">
-                  Welcome to the world of Service (PEST CONTROL) ,We are pleased
-                  to introduce ourselves
-                  <b> UNIVERSAL PEST CONTROL AND FUMIGATION SERVICES</b> . We
-                  are the best control services at economical cost with future
-                  promises.
+                <p>
+                  Enthusiastic young Persons With Core Background in
+                  Bio-chemistry Stream and Industry Experience , As Learn new
+                  technology with details and focuses on the relationships
+                  between people and their environment; promotes human health
+                  and well-being; and fosters healthy and safe communities
                 </p>
+               
                 <p>
                   We are skilled and our technicians are trained, we have rich
                   experience from leading Pest control companies. Our chemicals

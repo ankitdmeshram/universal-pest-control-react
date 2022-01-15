@@ -1,5 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+import Clients from "../Components/Clients";
 import CTA from "../Components/CTA";
 import HomeAbout from "../Components/HomeAbout";
 import HomeSlider from "../Components/HomeSlider";
@@ -68,6 +69,7 @@ const Home = () => {
       <HomeAbout />
       <Services />
       <Reviews />
+      <Clients />
       <CTA />
     </>
   );

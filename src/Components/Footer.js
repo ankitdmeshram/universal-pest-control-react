@@ -6,6 +6,8 @@ import phone from "../Img/phone-call.png";
 import email from "../Img/email.png";
 import { Link } from "react-router-dom";
 
+import upcwhite from "../Img/upc-white.png"
+
 const Footer = () => {
   return (
     <>
@@ -13,9 +15,9 @@ const Footer = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-3">
-              <img src={logo_white} className="img-fluid" />
+              <img src={upcwhite} className="img-fluid" />
               <p>
-                Universal Pest Control established in (Year) with sole interest
+              <a href="https://universalpestcontrol.co.in/" style={{color: "white"}} > Universal Pest Control and Fumigation Services</a> established in 2019 with sole interest
                 in pest management business in India.
               </p>
             </div>
