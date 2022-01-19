@@ -10,7 +10,7 @@ const HomeAbout = () => {
     solution: "",
   });
 
-  const url = "https://backend.leadpest.com/api/leads/store";
+  const url = "https://backend.universalpestcontrol.co.in/api/leads/store";
 
   const submit = (e) => {
     e.preventDefault();
@@ -117,6 +117,7 @@ const HomeAbout = () => {
                           onChange={(e) => handle(e)}
                           className="form-control"
                         >
+                          <option>Solution</option>
                           <option>General Pest Control</option>
                           <option>Cockroaches</option>
                           <option>Ants</option>

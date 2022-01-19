@@ -29,7 +29,7 @@ const Services = () => {
                 />
                 <div className="dest-box-content">
                   <h5>
-                    <Link to="termite-control"> Termite control</Link>
+                    <Link to="/termite-control"> Termite control</Link>
                     {/* <!-- <span className="gs-dest-right"
                     ><small>3 Day - Rs.50,000</small></span
                   > --> */}
@@ -64,7 +64,7 @@ const Services = () => {
                 />
                 <div className="dest-box-content">
                   <h5>
-                    <Link to="general-pest-control">
+                    <Link to="/general-pest-control">
                       {" "}
                       General Pest Services
                     </Link>
@@ -100,7 +100,7 @@ const Services = () => {
                 <img src={fogging} className="img-fluid gs-dest-box" />
                 <div className="dest-box-content">
                   <h5>
-                    <Link to="fogging-services-mosquitoes">
+                    <Link to="/fogging-services-mosquitoes">
                       {" "}
                       Fogging Services
                     </Link>
@@ -138,7 +138,7 @@ const Services = () => {
                 />
                 <div className="dest-box-content">
                   <h5>
-                    <Link to="sanitization"> Sanitization</Link>
+                    <Link to="/sanitization"> Sanitization</Link>
                     {/* <!-- <span className="gs-dest-right"
                     ><small>3 Day - Rs.50,000</small></span
                   > --> */}
@@ -170,7 +170,7 @@ const Services = () => {
                 <img src={birdji} className="img-fluid gs-dest-box" />
                 <div className="dest-box-content">
                   <h5>
-                    <Link to="birds-control"> Birds Control</Link>
+                    <Link to="/birds-control"> Birds Control</Link>
                     {/* <!-- <span className="gs-dest-right"
                     ><small>3 Day - Rs.50,000</small></span
                   > --> */}

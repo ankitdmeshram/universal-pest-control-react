@@ -7,7 +7,8 @@ import img_phone from "../Img/phone-call.png";
 import logomain from "../Img/logo-main.png";
 import PopupForm from "./PopupForm";
 
-import upc_black from "../Img/upc-black.png"
+// import upc_black from "../Img/upc-black.png"
+import upc_black from "../Img/logo-old.png"
 
 const Nav = () => {
   return (
@@ -15,7 +16,13 @@ const Nav = () => {
       <section className="gs-header">
         <div className="gs-top-nav container-fluid">
           <div className="container">
-            <p>
+            <small >
+              Universal Pest Control & Fumigation Services 
+            </small>
+            <p 
+              className="gs-gs-gs-gs-right"
+            >
+              
               <a href="mailto:universalpestandfumigation@gmail.com">
                 <img
                   src={img_email}
@@ -45,7 +52,7 @@ const Nav = () => {
           >
             <div className="container">
               <Link className="navbar-brand" to="/">
-                <img src={upc_black} style={{ height: "65px" }} alt="logo" />
+                <img src={upc_black} style={{ height: "55px" }} alt="logo" />
               </Link>
               <button
                 className="navbar-toggler"

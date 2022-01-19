@@ -2,20 +2,17 @@ import React, { useState } from "react";
 import Axios from "axios";
 
 const PopupForm = () => {
-
-
   const [data, setData] = useState({
     name: "",
     email: "",
     phone: "",
     city: "",
-    solution: ""
+    solution: "",
   });
 
-  const url = "https://backend.leadpest.com/api/leads/store";
+  const url = "https://backend.universalpestcontrol.co.in/api/leads/store";
 
   const submit = (e) => {
-
     e.preventDefault();
     Axios.post(url, {
       name: data.name,
@@ -50,8 +47,6 @@ const PopupForm = () => {
       >
         <div className="modal-dialog two " role="document">
           <div className="modal-content">
-
-            
             <div className="gs-form shadow  bg-light">
               <h3>Book Now</h3>
 
@@ -97,10 +92,12 @@ const PopupForm = () => {
                   <div className="form-row">
                     <div className="col">
                       <label>Solution</label>
-                      <select  value={data.solution}
+                      <select
+                        value={data.solution}
                         id="solution"
-
-                        onChange={(e) => handle(e)} className="form-control">
+                        onChange={(e) => handle(e)}
+                        className="form-control"
+                      >
                         <option>General Pest Control</option>
                         <option>Cockroaches</option>
                         <option>Ants</option>
@@ -127,26 +124,28 @@ const PopupForm = () => {
 
                 <div className="form-group">
                   <input
-                     type="submit"
-                     value="Submit"
-                     className="btn gs-btn"
-                     style={{ width: "100%" }}
+                    type="submit"
+                    value="Submit"
+                    className="btn gs-btn"
+                    style={{ width: "100%" }}
                   />
                 </div>
-                 
-                <p style={{textAlign: "center"}}>Or</p>
+
+                <p style={{ textAlign: "center" }}>Or</p>
 
                 <div className="form-group">
                   <a
-                     className="btn gs-btn"
-                     style={{color: "white", width: "100%"}}
-                  >Call Now </a>
+                    className="btn gs-btn"
+                    href="tel:+91 99097 23817"
+                    style={{ color: "white", width: "100%" }}
+                  >
+                    Call Now{" "}
+                  </a>
                 </div>
 
                 {/* <div class="spinner-border text-primary" role="status">
   <span class="sr-only">Loading...</span>
 </div> */}
-
               </form>
             </div>
           </div>

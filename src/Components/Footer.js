@@ -6,7 +6,8 @@ import phone from "../Img/phone-call.png";
 import email from "../Img/email.png";
 import { Link } from "react-router-dom";
 
-import upcwhite from "../Img/upc-white.png"
+// import upcwhite from "../Img/upc-white.png"
+import upcwhite from "../Img/logo-old-white.png"
 
 const Footer = () => {
   return (
