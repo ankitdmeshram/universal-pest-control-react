@@ -126,6 +126,8 @@ const HomeAbout = () => {
                           <option>Rodents</option>
                           <option>Ticks</option>
                           <option>Mosquitoes</option>
+                          <option>Bird Spike</option>
+                        <option>Bird Net</option>
                         </select>
                       </div>
                       <div className="col">

@@ -4,6 +4,7 @@ import Clients from "../Components/Clients";
 import CTA from "../Components/CTA";
 import HomeAbout from "../Components/HomeAbout";
 import HomeSlider from "../Components/HomeSlider";
+import JDCertificate from "../Components/JDCertificate";
 import Reviews from "../Components/Reviews";
 import Services from "../Components/Services";
 
@@ -67,6 +68,7 @@ const Home = () => {
 
       <HomeSlider />
       <HomeAbout />
+      <JDCertificate />
       <Services />
       <Reviews />
       <Clients />

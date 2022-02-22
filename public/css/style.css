@@ -47,10 +47,16 @@
   height: 90vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../img/slider-2.png");
+
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+.gs-hero-box.gs-hero-box-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/fogging-banner.webp");
+}
+
 .gs-hero .gs-hero-box h1 {
   color: white;
   text-transform: capitalize;

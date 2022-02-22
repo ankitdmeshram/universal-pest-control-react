@@ -37,8 +37,8 @@ const HomeSlider = () => {
                 </div>
               </div>
               <div className="carousel-item">
-                <div className="gs-hero-box text-center">
-                  <h1>Pest Control Sevices</h1>
+                <div className="gs-hero-box gs-hero-box-1 text-center">
+                  <h1  >Dengue & chikungunya <br></br> Mosquito Treatment</h1>
                   <p>100% Free from Bacteria</p>
                   <a
                     href="#contact"

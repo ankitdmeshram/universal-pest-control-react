@@ -1,13 +1,12 @@
 import React from "react";
 
-import logo_white from "../Img/logo-white.png";
 import location from "../Img/location.png";
 import phone from "../Img/phone-call.png";
 import email from "../Img/email.png";
 import { Link } from "react-router-dom";
 
 // import upcwhite from "../Img/upc-white.png"
-import upcwhite from "../Img/logo-old-white.png"
+import upcwhite from "../Img/logo-old-white.png";
 
 const Footer = () => {
   return (
@@ -88,6 +87,12 @@ const Footer = () => {
               </p>
             </div>
           </div>
+
+          <div className="row pt-3">
+              <div className="col-12 text-center">
+                <p style={{fontSize: "20px", fontWeight: "500"}}>Website Designed By <a href="https://brokod.com" target="_blank" style={{color: "white"}}> Brokod </a> </p>
+              </div>
+            </div>
         </div>
       </footer>
     </>

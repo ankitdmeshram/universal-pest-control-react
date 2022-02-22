@@ -8,6 +8,7 @@ import Reviews from "../Components/Reviews";
 import { Helmet } from "react-helmet";
 import Nav from "../Components/Nav";
 import Clients from "../Components/Clients";
+import JDCertificate from "../Components/JDCertificate";
 
 const About = () => {
   return (
@@ -65,15 +66,34 @@ const About = () => {
       {/* <Breadcumb title="he" /> */}
       <HomeAbout />
 
+      <JDCertificate />
+
       <div className="container text-center">
-        <h1>Government Approved Firm </h1>
-        <object
-          style={{ height: "70vh", width: "100%" }}
-          data="https://universalpestcontrol.co.in/license.pdf"
-          type="application/pdf"
-        >
-          {" "}
-        </object>
+        <div className="row">
+          <div className="col-12">
+            <h1 style={{ fontWeight: "700" }} className="pb-5">
+              Government Approved Firm{" "}
+            </h1>
+          </div>
+          <div className="col-lg-6">
+            <object
+              style={{ height: "70vh", width: "100%" }}
+              data="https://universalpestcontrol.co.in/license.pdf"
+              type="application/pdf"
+            >
+              {" "}
+            </object>
+          </div>
+          <div className="col-lg-6">
+          <object
+              style={{ height: "70vh", width: "100% " }}
+              data="https://universalpestcontrol.co.in/ISO-Certificate.pdf"
+              type="application/pdf"
+            >
+              {" "}
+            </object>
+          </div>
+        </div>
       </div>
 
       <Reviews />
